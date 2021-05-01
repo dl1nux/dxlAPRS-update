@@ -1,24 +1,13 @@
 # Updateskript für die dxlAPRS Toolchain
 
-Wenn man die dxlAPRS Toolchain sauber installiert hat, gibt es folgende Ordner:
+Wenn man die dxlAPRS Toolchain sauber installiert hat, gibt es unter anderem
+folgende Ordner im System:
 
-/dxlAPRS/
-/dxlAPRS/aprs/
-/dxlAPRS/aprs/scripts/
-/dxlAPRS/aprs/www/
-/dxlAPRS/aprs/www/icons/
-/dxlAPRS/aprsmap/
-/dxlAPRS/aprsmap/
-/dxlAPRS/aprsmap/logs/
-/dxlAPRS/aprsmap/osm/
-/dxlAPRS/aprsmap/osm/ant/
-/dxlAPRS/aprsmap/osm/poi/
-/dxlAPRS/aprsmap/osm/tiles/
+* /dxlAPRS/
+* /dxlAPRS/aprs/  (Binaries der Toolchain)
+* /dxlAPRS/aprsmap/  (Binary für APRSMAP)
 
 Idealerweise liegen diese Ordner und Files im Home-Ordner ~/
-
-Die Binaries der Toolchain befinden sich im Ordner: ~/dxlAPRS/aprs
-Das Binary für APRSMAP liegt in: ~/dxlAPRS/aprsmap
 
 Dieses Updateskript holt die aktuellsten Versionen der Binärdateien direkt vom
 Server des Entwicklers Chris OE5DXL und legt sie in die passenden Ordner auf
@@ -30,8 +19,8 @@ seine Server. Diese sollten natürlich auch funktionieren. Doch kann es ab und
 zu mal dazu kommen, das noch ein Bug enthalten ist! Bitte nach einem Update
 immer die Funktionalität prüfen und Probleme bitte direkt an Chris melden.
 
-Der Speicherpfad des /dxlAPRS Ordners muss im Updateskript angegeben werden,
-($DXLHOME) damit die neuen Dateien am richtigen Ort landen. Es werden nur dann
+Der Speicherpfad des /dxlAPRS Ordners muss im Updateskript angegeben werden
+($DXLHOME), damit die neuen Dateien am richtigen Ort landen. Es werden nur dann
 neue Programmversionen geladen, wenn die auf dem Server befindliche Versionen
 einen neueren Datumsstempel haben als die Versionen auf dem eigenen System!
 
@@ -59,6 +48,6 @@ Verbindung. Änderungen werden im dxlWiki bekannt gegeben:
 http://dxlwiki.dl1nux.de
 
 
-Stand: 01.05.2021
-Attila Kocis, DL1NUX
-attila@dl1nux.de
+* Stand: 01.05.2021
+* Attila Kocis, DL1NUX
+* attila@dl1nux.de
