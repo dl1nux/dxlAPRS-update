@@ -19,7 +19,7 @@ ARCH=armv7hf
 # Internet HTTP:
 SOURCE=http://oe5dxl.hamspirit.at:8025/aprs/bin/
 # Hamnet HTTP:
-#SOURCE=http://oe5dxl.ampr.at/aprs/bin/
+#SOURCE=http://oe5dxl.ampr.org/aprs/bin/
 
 echo "Dieses Skript aktualisiert die dxlAPRS Binaries aus der Quelle:"
 echo $SOURCE
