@@ -26,6 +26,7 @@ echo $SOURCE
 echo ""
 echo "Bitte vor dem Ausführen die Variablen DXLHOME, ARCH und SOURCE im Skript kontrollieren und ggf. anpassen."
 echo "Hinweis: Zum Aktualisieren von AFSKMODEM werden root Rechte benötigt!"
+echo "Es stehen nicht alle Tools für alle Architekturen zur Verfügung (ggf. Fehleranzeige)."
 echo ""
 echo "ENTER für weiter, STRG+C zum Abbrechen..."
 read continue
@@ -34,20 +35,27 @@ cd $DXLHOME/dxlAPRS/aprs
 
 wget -N --no-check-certificate $SOURCE$ARCH/adsb2aprs
 sudo wget -N --no-check-certificate $SOURCE$ARCH/afskmodem
+wget -N --no-check-certificate $SOURCE$ARCH/cmslogin
+wget -N --no-check-certificate $SOURCE$ARCH/downsample
 wget -N --no-check-certificate $SOURCE$ARCH/fmrepeater
 wget -N --no-check-certificate $SOURCE$ARCH/gps2aprs
 wget -N --no-check-certificate $SOURCE$ARCH/gps2digipos
+wget -N --no-check-certificate $SOURCE$ARCH/hostint
 wget -N --no-check-certificate $SOURCE$ARCH/l2cat
 wget -N --no-check-certificate $SOURCE$ARCH/profile
+wget -N --no-check-certificate $SOURCE$ARCH/ra02
 wget -N --no-check-certificate $SOURCE$ARCH/radiorange
 wget -N --no-check-certificate $SOURCE$ARCH/sdrradio
 wget -N --no-check-certificate $SOURCE$ARCH/sdrtst
+wget -N --no-check-certificate $SOURCE$ARCH/sdrtx
 wget -N --no-check-certificate $SOURCE$ARCH/sondemod
 wget -N --no-check-certificate $SOURCE$ARCH/sondeudp
 wget -N --no-check-certificate $SOURCE$ARCH/udpbox
 wget -N --no-check-certificate $SOURCE$ARCH/udpflex
 wget -N --no-check-certificate $SOURCE$ARCH/udpgate4
 wget -N --no-check-certificate $SOURCE$ARCH/udphub
+wget -N --no-check-certificate $SOURCE$ARCH/waterfall
+wget -N --no-check-certificate $SOURCE$ARCH/waterfall3
 
 cd $DXLHOME/dxlAPRS/aprsmap
 
