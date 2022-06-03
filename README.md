@@ -48,6 +48,6 @@ Verbindung. Änderungen werden im dxlWiki bekannt gegeben:
 http://dxlwiki.dl1nux.de
 
 
-* Stand: 01.05.2021
+* Stand: 03.06.2022
 * Attila Kocis, DL1NUX
 * attila@dl1nux.de
