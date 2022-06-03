@@ -42,6 +42,8 @@ wget -N --no-check-certificate $SOURCE$ARCH/gps2aprs
 wget -N --no-check-certificate $SOURCE$ARCH/gps2digipos
 wget -N --no-check-certificate $SOURCE$ARCH/hostint
 wget -N --no-check-certificate $SOURCE$ARCH/l2cat
+wget -N --no-check-certificate $SOURCE$ARCH/lorarx
+wget -N --no-check-certificate $SOURCE$ARCH/loratx
 wget -N --no-check-certificate $SOURCE$ARCH/profile
 wget -N --no-check-certificate $SOURCE$ARCH/ra02
 wget -N --no-check-certificate $SOURCE$ARCH/radiorange
