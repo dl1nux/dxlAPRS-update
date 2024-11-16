@@ -26,9 +26,10 @@ einen neueren Datumsstempel haben als die Versionen auf dem eigenen System!
 
 Ebenfals muss angegeben werden, welche Architektur man benötigt ($ARCH)
 Zur Verfügung stehen nur:
-* armv7
-* x86-32
-* x86-64
+* armv7 (Raspberry Pi ab Version 2, 32 bit)
+* aarch64 (Raspberry Pi ab Version 2, 64 bit)
+* x86-32 (PC 32 bit)
+* x86-64 (PC 64 bit)
 
 Es muss außerdem vorher ausgewählt werden, aus welcher Quelle sich das Skript
 die Programmdateien zieht ($SOURCE). Folgende Quellen gibt es:
@@ -45,9 +46,9 @@ trotzdem ein Warnhinweis angezeigt. Dieser kann jedoch ignoriert werden.
 
 Hinweis: Chris OE5DXL ändert gelegentlich mal den Port für die Internet-HTTP
 Verbindung. Änderungen werden im dxlWiki bekannt gegeben:
-http://dxlwiki.dl1nux.de
+https://dxlwiki.dl1nux.de
 
 
-* Stand: 03.06.2022
+* Stand: 16.11.2024
 * Attila Kocis, DL1NUX
 * attila@dl1nux.de
