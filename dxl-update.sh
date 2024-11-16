@@ -9,9 +9,13 @@ DXLHOME=/home/pi
 
 # Bitte in der Variable ARCH die Architektur eintragen, die benötigt wird.
 #   Zur verfügung stehen: armv7hf (RaspberryPi 2B und neuer)
+#                         aarch64 (64 bit für RaspberryPi 3B und neuer)
 #                         x86-32  (32 bit PC Systeme)
 #                         x86-64  (64 bit PC Systeme)
 ARCH=armv7hf
+#ARCH=aarch64
+#ARCH=x86-32
+#ARCH=x86-64
 
 # Bitte für die Variable SOURCE die Updatequelle auswählen (auskommentieren)
 # Internet HTTPS:
